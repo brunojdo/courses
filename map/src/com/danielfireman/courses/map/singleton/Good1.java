@@ -14,7 +14,7 @@ class Good1 {
    }
 
    // Static method to get the singleton instance.
-   public static syncronized Good1 getInstance() {
+   public static synchronized Good1 getInstance() {
       if (singleInstance == null) {
         singleInstance = new Good1(); 
       }
