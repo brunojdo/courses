@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class Conexao {
  
     public Conexao () {    }
-    public static Conexao con = null;
+    public static Connection con = null;
 
     public static void Conectar() {
         System.out.println("Conectando ao banco...");
