@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * Good example of the abstract factory.
  * see: https://brizeno.wordpress.com/category/padroes-de-projeto/abstract-factory/
  */
-class Good  {
+class Good1 {
   interface FabricaDeCarro {
     CarroSedan criarCarroSedan();
     CarroPopular criarCarroPopular();
