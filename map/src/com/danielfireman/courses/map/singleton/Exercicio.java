@@ -6,6 +6,10 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
  
+/** 
+ * Atividade: Aplique o padrão Singleton na classe abaixo. 
+ *
+ **/
 public class Conexao {
  
     public Conexao () {    }
